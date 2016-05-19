@@ -1,0 +1,54 @@
+html {
+  height: 100%;
+}
+
+body {
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  background: #ecf0f1;
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  margin-top:10px;
+  margin-bottom:15px;
+  padding:20px;
+
+}
+
+.navbar-default {
+  background: rgba(250, 250, 250, 0.5);
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
+  border: none;
+  border-radius: 0;
+  .navbar-header {
+    .navbar-brand {
+      color: #2c3e50;
+      font-size: 20px;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: -1px;
+    }
+  }
+  .navbar-link {
+    line-height: 3.5;
+    color: #2c3e50;
+  }
+}
+
+#index_workouts {
+  h2 {
+    margin-bottom: 0;
+    font-weight: 100;
+    a {
+      color: #2c3e50;
+    }
+  }
+  h3 {
+    margin: 0;
+    font-size: 18px;
+    span {
+      color:#ecf0f1;
+    }
+  }
+}
